@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            margin-top: 50px;
+       }
+       .col{
+        padding-right: 50px;
+        
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="expensesform">
+        <input type="text" id="expenses" placeholder="Expenses">
+
+
+        <input type="number" id="amount" placeholder="Amount">
+
+        <input type="text" id="category" placeholder="Category">
+
+        <input type="date" id="date" placeholder="Date">
+
+        <button type="submit" id="submitbtn"> Add Expenses</button>
+
+        </form>
+
+        <!-- <select id="" placeholder="Category">
+            <option>food</option>
+            <option>Travel</option>
+            <option>Rent</option>
+            <option>Grcoeryy</option>
+        </select> -->
+    </div>
+    <table border="2" class="form">
+        <tr>
+            <th class="col">Expenses</th>
+            <th class="col">Amount</th>
+            <th class="col">Category</th>
+            <th class="col">Date</th>
+            <th class="col">Action</th>
+        </tr>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+    <div id="total">
+
+    </div>
+    <script src="expensetracker.js"></script>
+</body>
+</html>
